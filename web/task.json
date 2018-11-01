@@ -1,0 +1,16 @@
+{
+  "family": "flask-app",
+  "containerDefinitions": [{
+    "name": "flask-app",
+    "essential": true,
+    "image": "%ECR_IMAGE%",
+    "memoryReservation": 2000,
+    "portMappings": [
+      {
+        "protocol": "tcp",
+        "containerPort": 5000,
+        "hostPort": 5000
+      }
+    ]
+  }]
+}

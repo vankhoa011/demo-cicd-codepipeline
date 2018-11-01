@@ -1,0 +1,14 @@
+{
+    "serviceName": "flask-app",
+    "taskDefinition": "flask-app",
+    "loadBalancers": [
+        {
+            "loadBalancerName": "flask-app",
+            "containerName": "flask-app",
+            "containerPort": 5000
+        }
+    ],
+    
+    "desiredCount": 1,
+    "role": "ecsServiceRole"
+}
