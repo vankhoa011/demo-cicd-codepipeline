@@ -7,7 +7,7 @@ set -e
 # AWS_REGION
 # IMAGE_NAME
 
-SERVICE_NAME="flask-app-srv"
+SERVICE_NAME="flask-app"
 TASK_FAMILY="flask-app"
 ECS_TASK_DEFINITION_TEMPLATE="task.json"
 ECS_TASK="task-ecs.json"
