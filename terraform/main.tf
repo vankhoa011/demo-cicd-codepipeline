@@ -39,3 +39,24 @@ variable "public_subnet_cidrs" {
 variable "availibility_zones" {
   type = "list"
 }
+variable "ami_image" {
+  
+}
+variable "ecs_key" {
+  
+}
+
+variable "repo_owner" {
+  
+}
+
+variable "repo_name" {
+  
+}
+
+variable "github_oauth_token" {
+  
+}
+variable "instance_type" {
+  
+}
