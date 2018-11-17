@@ -25,6 +25,11 @@ module "ecs" {
   vpc_id = "${module.network.vpc_id}"
 }
 
+output "url" {
+  description = "flask app url"
+  value       = "${module.ecs.flask_url}"
+}
+
 variable "region" {}
 variable "vpc_cidr" {}
 variable "environment" {}
